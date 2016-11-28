@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.8;
+  font-family: "Century Gothic";
+  background-color: #eee;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+.page {
+  max-width: 740px;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.airplane {
+  text-align: center;
+  position: fixed;
+}
+
+.content {
+  padding-left: 220px;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+.direction {
+  transition: transform 0.5s;
+}
